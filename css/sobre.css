@@ -1,7 +1,6 @@
 .sobre {
   background-color: var(--cor1);
   padding-bottom: 100px;
-  z-index: -99;
 }
 
 .sobre .container {

@@ -1,0 +1,45 @@
+.contato {
+  padding-top: 100px;
+}
+
+.contato ul {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contato ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+form {
+  display: grid;
+  gap: 20px;
+}
+
+form div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+form #mensagem {
+  grid-column: 1/3;
+}
+
+input {
+  height: 40px;
+}
+
+input,
+textarea {
+  background-color: var(--cor7);
+  padding-left: 10px;
+}

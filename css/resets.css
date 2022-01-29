@@ -24,3 +24,8 @@ body {
   background-color: var(--cor3);
   position: relative;
 }
+
+input,
+textarea {
+  border: none;
+}
