@@ -1,6 +1,7 @@
 .sobre {
   background-color: var(--cor1);
   padding-bottom: 100px;
+  z-index: -99;
 }
 
 .sobre .container {
@@ -37,4 +38,8 @@
 
 .sobre .container .botao a {
   color: var(--cor3);
+}
+
+.sobre-descricao {
+  min-width: 260px;
 }
