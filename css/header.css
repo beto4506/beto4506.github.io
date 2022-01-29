@@ -1,0 +1,22 @@
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px 20px 0px;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-transform: uppercase;
+  gap: 40px;
+}
+
+.menu li a {
+  color: var(--cor1);
+}
+
+.menu li a:hover {
+  color: var(--cor2);
+}

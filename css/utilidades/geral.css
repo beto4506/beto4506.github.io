@@ -1,0 +1,80 @@
+.container {
+  margin: 0 auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  max-width: 1200px;
+}
+
+.botao {
+  color: var(--cor1);
+  text-transform: uppercase;
+  padding: 10px 20px;
+  font-family: "Work Sans";
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid var(--cor1);
+}
+
+.botao:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+
+/* Fontes */
+.font-light {
+  font-family: "Work Sans";
+  font-weight: 300;
+}
+
+.font-regular {
+  font-family: "Work Sans";
+  font-weight: 400;
+}
+
+.font-medium {
+  font-family: "Work Sans";
+  font-weight: 500;
+}
+
+.font-bold {
+  font-family: "Work Sans";
+  font-weight: 700;
+}
+
+.titulos-grandes {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+/* Cores */
+.cor-1 {
+  color: var(--cor1);
+}
+
+.cor-2 {
+  color: var(--cor2);
+}
+
+.cor-3 {
+  color: var(--cor3);
+}
+
+.cor-4 {
+  color: var(--cor4);
+}
+
+.cor-5 {
+  color: var(--cor5);
+}
+
+.font-size-1 {
+  font-size: 1rem;
+}
+
+.font-size-2 {
+  font-size: 1.25rem;
+}
+
+.font-size-3 {
+  font-size: 1.5rem;
+}

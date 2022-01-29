@@ -1,0 +1,26 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+body {
+  background-color: var(--cor3);
+  position: relative;
+}

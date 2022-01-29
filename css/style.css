@@ -1,0 +1,26 @@
+/* Header */
+@import url("./header.css");
+
+/* Background */
+@import url("./background.css");
+
+/* Destaque */
+@import url("./destaque.css");
+
+/* Empreendimentos */
+@import url("./empreendimentos.css");
+
+/* Serviços */
+@import url("./servicos.css");
+
+/* Parceiros */
+@import url("./parceiros.css");
+
+/* Resets */
+@import url("./resets.css");
+
+/* Utilidades */
+@import url("./utilidades/geral.css");
+
+/* Cores */
+@import url("./utilidades/cores.css");

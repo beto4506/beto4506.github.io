@@ -1,0 +1,63 @@
+.servicos {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.servicos h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.servicos h3 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.servicos h3 span {
+  font-size: 1.75rem;
+}
+
+.servicos-carrossel li::before {
+  content: "";
+  width: 250px;
+  height: 1px;
+  background: var(--cor6);
+  position: absolute;
+  top: 130px;
+}
+
+.servicos-carrossel {
+  display: flex;
+  gap: 20px;
+}
+
+.servicos-carrossel li {
+  background: var(--cor5);
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 10px;
+  position: relative;
+  padding-right: 70px;
+  padding-left: 70px;
+}
+
+.servicos p {
+  text-align: center;
+}
+.servicos-carrossel li img {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.servicos-carrossel p {
+  margin-bottom: 20px;
+}
+
+.servicos-carrossel button {
+  margin-bottom: 30px;
+  border: none;
+}

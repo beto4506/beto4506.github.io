@@ -1,0 +1,51 @@
+.empreendimentos {
+  background-color: var(--cor3);
+  box-shadow: 0px 400px 0 var(--cor1) inset;
+  padding-top: 50px;
+}
+
+.empreendimentos .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  margin: 0 auto;
+}
+
+.empreendimentos h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.empreendimentos .container h2 span {
+  text-transform: uppercase;
+  font-size: 3rem;
+}
+
+.edificio {
+  display: grid;
+  grid-template-columns: 1fr 1.75fr;
+  width: 1100px;
+}
+
+.edificio img {
+  max-width: 100%;
+}
+
+.edificio-descricao {
+  background: url("../img/edificios/Hero_Empreendimentos_A.jpg");
+  background-size: cover;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.edificio-descricao ul {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.edificio-descricao button {
+  margin-top: 30px;
+  margin-right: 20px;
+}

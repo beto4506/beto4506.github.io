@@ -1,0 +1,14 @@
+.background-images {
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  justify-content: stretch;
+  z-index: -1;
+  width: 100%;
+}
+
+.background-images img {
+  object-fit: cover;
+  width: 100%;
+  height: 700px;
+}
