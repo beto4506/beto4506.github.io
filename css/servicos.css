@@ -31,6 +31,8 @@
 
 .servicos-carrossel {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
 }
 
@@ -47,7 +49,9 @@
 
 .servicos p {
   text-align: center;
+  max-width: 200px;
 }
+
 .servicos-carrossel li img {
   margin-top: 30px;
   margin-bottom: 50px;
